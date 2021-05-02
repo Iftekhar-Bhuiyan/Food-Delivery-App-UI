@@ -30,7 +30,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   line_icons: ^2.0.1
   flutter_svg: ^0.18.0
-  carousel_slider: ^2.2.1
+  carousel_slider: ^3.0.0
   animate_do: ^1.7.3
 
 dev_dependencies:

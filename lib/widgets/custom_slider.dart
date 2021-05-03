@@ -1,7 +1,7 @@
 import 'package:carousel_slider/carousel_options.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-
+import 'package:flutter/rendering.dart';
 
 class ActiveDot extends StatelessWidget {
   @override
@@ -61,7 +61,7 @@ class _CustomSliderWidgetState extends State<CustomSliderWidget> {
   @override
   Widget build(BuildContext context) {
     return Stack(
-      overflow: Overflow.visible,
+      clipBehavior: Clip.none,
       children: <Widget>[
         Container(
           width: MediaQuery.of(context).size.width,
